@@ -13,7 +13,7 @@ public class NumberGuessingGame{
             System.out.println("Wellcome to the Number Guessing Game!");
             System.out.println("Guess the number between 1 to 100.");
             System.out.println("You have maximum "+maxAttempts+" attempts to guess it.");
-            int numberToGuess = rand.nextInt(100)+1; // genrating random number between 1 - 100.
+            int numberToGuess = rand.nextInt(100)+1; 
             int numberOfTries = 0;
             while(numberOfTries < maxAttempts){ 
                 System.out.println("Enter your guess number : ");
